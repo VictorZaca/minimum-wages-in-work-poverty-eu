@@ -1,0 +1,269 @@
+{
+  "inwork_poverty_employees": {
+    "eurostat_code": "ilc_iw01",
+    "filters": {
+      "wstatus": "SAL",
+      "sex": "T",
+      "age": "Y18-64",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-20T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 356
+  },
+  "inwork_poverty": {
+    "eurostat_code": "ilc_iw01",
+    "filters": {
+      "wstatus": "EMP",
+      "sex": "T",
+      "age": "Y18-64",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-20T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 445
+  },
+  "inwork_poverty_worktime": {
+    "eurostat_code": "ilc_iw07",
+    "filters": {
+      "worktime": [
+        "FT",
+        "PT"
+      ],
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-20T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 890
+  },
+  "inwork_poverty_household": {
+    "eurostat_code": "ilc_iw02",
+    "filters": {
+      "hhcomp": [
+        "A1",
+        "A1_DCH",
+        "A_GE2_NDCH",
+        "A_GE2_DCH"
+      ],
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-20T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 1780
+  },
+  "poverty_by_activity": {
+    "eurostat_code": "ilc_li04",
+    "filters": {
+      "wstatus": [
+        "SAL",
+        "RET",
+        "UNE"
+      ],
+      "rskpovth": [
+        "B_40",
+        "B_50",
+        "B_60",
+        "B_70"
+      ],
+      "statinfo": "MED_EI",
+      "sex": "T",
+      "age": "Y_GE18",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-20T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 2856
+  },
+  "minwage_nac": {
+    "eurostat_code": "earn_mw_cur",
+    "filters": {
+      "currency": "NAC"
+    },
+    "eurostat_updated": "2026-07-31T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 1176
+  },
+  "minwage_pps": {
+    "eurostat_code": "earn_mw_cur",
+    "filters": {
+      "currency": "PPS"
+    },
+    "eurostat_updated": "2026-07-31T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 1176
+  },
+  "kaitz_mean": {
+    "eurostat_code": "earn_mw_avgr2",
+    "filters": {
+      "nace_r2": "B-S",
+      "indic_se": "MMW_MEAN_ME_PP",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-07-31T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 340
+  },
+  "kaitz_median": {
+    "eurostat_code": "earn_mw_avgr2",
+    "filters": {
+      "nace_r2": "B-S",
+      "indic_se": "MMW_MED_ME_PP",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-07-31T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 165
+  },
+  "hicp_index": {
+    "eurostat_code": "prc_hicp_aind",
+    "filters": {
+      "unit": "INX_A_AVG",
+      "coicop": "CP00"
+    },
+    "eurostat_updated": "2026-02-06T23:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 627
+  },
+  "hicp_divisions": {
+    "eurostat_code": "prc_hicp_aind",
+    "filters": {
+      "unit": "INX_A_AVG",
+      "coicop": [
+        "CP01",
+        "CP02",
+        "CP03",
+        "CP04",
+        "CP05",
+        "CP06",
+        "CP07",
+        "CP08",
+        "CP09",
+        "CP10",
+        "CP11",
+        "CP12"
+      ]
+    },
+    "eurostat_updated": "2026-02-06T23:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 7520
+  },
+  "hbs_budget_shares": {
+    "eurostat_code": "hbs_str_t223",
+    "filters": {
+      "quant_inc": [
+        "QU1",
+        "QU5"
+      ],
+      "coicop": [
+        "CP01",
+        "CP02",
+        "CP03",
+        "CP04",
+        "CP05",
+        "CP06",
+        "CP07",
+        "CP08",
+        "CP09",
+        "CP10",
+        "CP11",
+        "CP12"
+      ],
+      "unit": "PM"
+    },
+    "eurostat_updated": "2025-10-22T23:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 2590
+  },
+  "unemployment": {
+    "eurostat_code": "une_rt_a",
+    "filters": {
+      "age": "Y15-74",
+      "sex": "T",
+      "unit": "PC_ACT"
+    },
+    "eurostat_updated": "2026-11-06T23:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 363
+  },
+  "gdp_pc_real": {
+    "eurostat_code": "nama_10_pc",
+    "filters": {
+      "na_item": "B1GQ",
+      "unit": "CLV20_EUR_HAB"
+    },
+    "eurostat_updated": "2026-11-05T23:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 670
+  },
+  "parttime_share": {
+    "eurostat_code": "lfsa_eppga",
+    "filters": {
+      "sex": "T",
+      "age": "Y15-64",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-30T11:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 715
+  },
+  "employees_thousands": {
+    "eurostat_code": "lfsa_eegaed",
+    "filters": {
+      "sex": "T",
+      "age": "Y20-64",
+      "isced11": "TOTAL",
+      "unit": "THS_PER"
+    },
+    "eurostat_updated": "2026-10-30T11:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 715
+  },
+  "employment_rate_low_educ": {
+    "eurostat_code": "lfsa_ergaed",
+    "filters": {
+      "sex": "T",
+      "age": "Y20-64",
+      "isced11": "ED0-2",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-30T11:00:00+0100",
+    "downloaded": "2026-11-07",
+    "rows": 632
+  },
+  "poverty_threshold": {
+    "eurostat_code": "ilc_li01",
+    "filters": {
+      "statinfo": "MED_EI",
+      "hhcomp": "A1",
+      "rskpovth": "B_60",
+      "unit": "NAC"
+    },
+    "eurostat_updated": "2026-10-20T11:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 527
+  },
+  "poverty_anchored_2008": {
+    "eurostat_code": "ilc_li22b",
+    "filters": {
+      "statinfo": "MED_EI",
+      "rskpovth": "B_60",
+      "sex": "T",
+      "age": "Y18-64",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-05T23:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 360
+  },
+  "deprivation_q1": {
+    "eurostat_code": "ilc_mdsd02",
+    "filters": {
+      "hhcomp": "TOTAL",
+      "quant_inc": "QU1",
+      "unit": "PC"
+    },
+    "eurostat_updated": "2026-10-20T23:00:00+0200",
+    "downloaded": "2026-11-07",
+    "rows": 252
+  }
+}
