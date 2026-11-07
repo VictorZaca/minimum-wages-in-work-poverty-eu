@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.toc
+.DS_Store
+Thumbs.db
+desktop.ini
+_private/
+notes/
+presentation/*
+!presentation/slides.pdf
